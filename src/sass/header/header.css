@@ -1,0 +1,180 @@
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2F2F2;
+}
+
+.main .first-bar {
+  display: flex;
+  position: relative;
+  top: 0;
+  width: 100%;
+  flex-direction: row;
+  height: 4.5vw;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.main .first-bar .left {
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+  flex-direction: row;
+  align-content: center;
+}
+
+.main .first-bar .left .logo-left {
+  display: flex;
+  width: 40%;
+  align-items: center;
+}
+
+.main .first-bar .left .logo-left img {
+  display: flex;
+  height: 30%;
+  margin: 0 5% 0 20%;
+}
+
+.main .first-bar .left .logo-left p {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.main .first-bar .left .posts-friends {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-self: center;
+  height: 100%;
+}
+
+.main .first-bar .left .posts-friends #posts {
+  display: flex;
+  height: 100%;
+  width: auto;
+  align-items: center;
+  border-bottom: 2px solid #AD73FD;
+  margin-right: 4vw;
+}
+
+.main .first-bar .left .posts-friends #posts img {
+  margin-right: 1vw;
+}
+
+.main .first-bar .left .posts-friends #find-friends {
+  display: flex;
+  height: 100%;
+  width: auto;
+  align-items: center;
+}
+
+.main .first-bar .left .posts-friends #find-friends img {
+  margin-right: 1vw;
+}
+
+.main .first-bar .right {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+  align-items: center;
+}
+
+.main .first-bar .right .notification-icon {
+  display: flex;
+  margin-right: 4vw;
+}
+
+.main .first-bar .right .profil-settings {
+  display: flex;
+}
+
+.main .first-bar .right .profil-settings .dropdown:hover .dropdown-content,
+.main .first-bar .right .profil-settings .dropdown.show .dropdown-content {
+  display: block;
+}
+
+.main .first-bar .right .profil-settings .dropdown {
+  display: flex;
+  position: relative;
+  margin-left: 3vw;
+  cursor: pointer;
+}
+
+.main .first-bar .right .profil-settings .dropdown img {
+  display: flex;
+  margin-right: 3vw;
+  padding: 0 1vw;
+}
+
+.main .first-bar .right .profil-settings .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 6px;
+}
+
+.main .first-bar .right .profil-settings .dropdown .dropdown-content div:hover {
+  background-color: #ecf0f1;
+}
+
+.main .first-bar .right .profil-settings .dropdown .dropdown-content div {
+  transition: all 0.3s ease;
+}
+
+.main .first-bar .right .profil-settings .dropdown .dropdown-content .dropProfile {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.main .first-bar .right .profil-settings .dropdown .dropdown-content .dropProfile img {
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  margin-left: 25px;
+}
+
+.main .first-bar .right .profil-settings .dropdown .dropdown-content .dropProfile a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.main .first-bar .right .profil-settings .dropdown .dropdown-content .dropLogout {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+.main .first-bar .right .profil-settings .dropdown .dropdown-content .dropLogout img {
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+  margin-left: 25px;
+}
+
+.main .first-bar .right .profil-settings .dropdown .dropdown-content .dropLogout span {
+  margin-left: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  color: #242323;
+  font-size: 16px;
+}
+/*# sourceMappingURL=header.css.map */

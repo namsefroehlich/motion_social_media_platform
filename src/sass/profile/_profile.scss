@@ -1,0 +1,267 @@
+        
+   
+.container-profile {
+
+
+    display: flex;
+    background-image: url("../../assets//images/profile-header.png");
+    width: 100vw;
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+
+    .profile {
+
+        display: flex;
+        background-color: white;
+        height: 70%;
+        width: 80%;
+        margin-top: 3%;
+        
+       
+        .left {
+
+            display: flex;
+            width: 30%;
+            height: 100%;
+
+            .content-left {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                border-right: 1px solid rgba(232, 236, 241, 1);
+            
+                img {
+                    margin-top: 9%;
+                    object-fit: contain;
+                    width: 18%;
+                    height: auto;
+                }
+
+                .username {
+                    margin-top: 1rem;
+                    font-size: 24px;
+                }
+
+                .location {
+                    margin-top: 0.3rem;
+                    font-size: 14px;
+                    margin-bottom: 5rem;;
+                }
+                
+                button {
+                    
+                    font-size: 12px;
+                    background-color: transparent;
+                    height: 12%;
+                    width: 45%;
+                    border-radius: 30px;
+                    outline: 0;
+                    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.01);
+                    color: grey;
+                    border: 1px solid rgba(191, 191, 191, 0.3);
+                    margin: 0% 2%;
+                }
+            }
+            
+        }
+
+        .right {
+            
+            display: flex;
+            width: 70%;
+            height: 100%;
+            flex-direction: column;
+            
+
+            .top {
+                display: flex;
+                width: 100%;
+                height: 70%;
+                
+
+                .about {
+                    display: flex;
+                    height: 100%;
+                    width: 50%;
+                    border-bottom:  1px solid rgba(232, 236, 241, 1);
+                    flex-direction: column;
+
+                    .about-content {
+                        display: flex;
+                        height: 65%;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        padding: 10%;
+                        
+                        .about-title {
+                            display: flex;
+                            font-size: 14px;
+                        }
+                        
+                        .about-user-text {
+                            margin-top: 5%;
+                            font-size: 14px;
+                            line-height: 26px;
+                        }
+
+                    }
+
+                    .email-content {
+                        display: flex;
+                        width: 100%;
+                        height: 35%;
+                        flex-direction: initial;
+                        
+
+                        .email{
+                            width: 50%;
+                            padding-left: 10%;
+                            font-size: 14px;
+
+                            p {
+                                font-size: 14px;
+                            }
+
+                            .user-email {
+                                font-size: 14px;
+                                margin-top: 5%;
+                            }
+                        }
+
+                        .phone{
+                            width: 50%;
+                            margin-left: 15%;
+
+                            p {
+                                font-size: 14px;
+                            }
+
+                            .user-number {
+                                font-size: 14px;
+                                margin-top: 5%;
+                            }
+                        }
+
+                    }
+                }
+
+                .things-i-like {
+                    display: flex;
+                    height: 100%;
+                    width: 50%;
+                    border-bottom:  1px solid rgba(232, 236, 241, 1);
+                    flex-wrap: wrap;
+                    
+
+                    p {
+                        padding-top: 10%;
+                        font-size: 14px;
+                        width: 100%;
+                        height: 25%;
+                    }
+
+                    .hobby-buttons-wrapper {
+
+                        display: flex;
+                        width: 100%;
+                        height: 75%;
+
+                        button {
+                            font-size: 14px;
+                            background-color: transparent;
+                            height: 13%;
+                            width: 20%;
+                            border-radius: 30px;
+                            outline: 0;
+                            background: rgba(191, 191, 191, 0.3);
+                            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);
+                            color: black;
+                            border: 0;
+                            margin: 0% 2%;
+                        }  
+                            
+                        }
+                    }
+
+                }
+                
+                .bottom {
+                    display: flex;
+                    width: 100%;
+                    height: 30%;
+                    
+
+                    .count {
+                        font-size: 22px;
+                        padding-bottom: 5%;
+                        color: black;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: grey;
+                    }
+                    
+                    
+
+                    .posts {
+                        height: 100%;
+                        width: 20%;
+                        justify-content: center;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: column;
+
+                    }
+
+                        
+
+                    .likes {
+                        height: 100%;
+                        width: 20%;
+                        justify-content: center;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .friends {
+                        height: 100%;
+                        width: 20%;
+                        justify-content: center;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .followers {
+                        height: 100%;
+                        width: 20%;
+                        justify-content: center;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .following {
+                        height: 100%;
+                        width: 20%;
+                        justify-content: center;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+
+            }
+        }
+
+    }   

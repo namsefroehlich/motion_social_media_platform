@@ -1,0 +1,112 @@
+.container-profile {
+  display: flex;
+  background-image: url("../../assets//images/profile-header.png");
+  width: 100vw;
+  height: 65vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-profile .profile {
+  display: flex;
+  background-color: white;
+  height: 70%;
+  width: 80%;
+  margin-top: 3%;
+}
+
+.container-profile .profile .left {
+  display: flex;
+  width: 30%;
+  height: 100%;
+}
+
+.container-profile .profile .left .content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #e8ecf1;
+}
+
+.container-profile .profile .left .content-left img {
+  object-fit: contain;
+  width: 18%;
+  height: auto;
+}
+
+.container-profile .profile .left .content-left .username {
+  margin-top: 1rem;
+}
+
+.container-profile .profile .left .content-left .location {
+  margin-top: 1rem;
+}
+
+.container-profile .profile .left .content-left button {
+  margin-top: 3rem;
+}
+
+.container-profile .profile .right {
+  display: flex;
+  width: 70%;
+  height: 100%;
+}
+
+.container-profile .profile .right .top {
+  display: flex;
+  width: 100%;
+  height: 70%;
+}
+
+.container-profile .profile .right .top .about {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  border-bottom: 1px solid #e8ecf1;
+  flex-direction: column;
+}
+
+.container-profile .profile .right .top .about .about-content {
+  display: flex;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-profile .profile .right .top .about .about-content p {
+  margin-top: 10%;
+}
+
+.container-profile .profile .right .top .about .email-content {
+  display: flex;
+  width: 100%;
+  height: 30%;
+}
+
+.container-profile .profile .right .top .things-i-like {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  border-bottom: 1px solid #e8ecf1;
+  background-color: indianred;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  color: #242323;
+  font-size: 16px;
+  outline: none;
+}
+/*# sourceMappingURL=profilepage.css.map */

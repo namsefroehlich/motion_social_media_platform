@@ -1,0 +1,210 @@
+
+.main {
+
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+
+
+
+    .first-bar {
+
+        display: flex;
+        position: relative;
+        top: 0;
+        width: 100%;
+        flex-direction: row;
+        height: 4.5vw;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 10px 20px rgba(0, 0, 0, 0.05);
+        
+    
+        .left {
+    
+            display: flex;
+            justify-content: flex-start;
+            width: 60%;
+            flex-direction: row;
+            align-content: center;
+    
+            .logo-left {
+    
+                display: flex;
+                width: 40%;
+                align-items: center;
+                
+    
+                img {
+    
+                    display: flex;
+                    height: 30%;
+                    margin: 0 5% 0 20%;
+    
+                }
+    
+                p {
+    
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+                
+            }
+    
+            .posts-friends {
+    
+                display: flex;
+                width: 100%;
+                flex-direction: row;
+                align-self: center;
+                height: 100%;
+    
+    
+                #posts {
+    
+                    display: flex;
+                    height: 100%;
+                    width: auto;
+                    align-items: center;
+                    border-bottom: 2px solid #AD73FD;  
+                    margin-right: 4vw;   
+                            
+    
+                    img {
+    
+                        margin-right: 1vw;
+                    }
+                }
+    
+                #find-friends {
+    
+                    display: flex;
+                    height: 100%;
+                    width: auto;
+                    align-items: center;
+    
+                    img {
+    
+                        margin-right: 1vw;
+                    }
+                }
+            }
+            
+        }
+    
+        .right {
+    
+            display: flex;
+            justify-content: flex-end;
+            width: 40%;
+            align-items: center;
+    
+            .notification-icon {
+    
+                display: flex;
+                margin-right: 4vw;
+            }
+    
+            .profil-settings {
+    
+                display: flex;
+                
+
+                .dropdown:hover .dropdown-content,
+                .dropdown.show .dropdown-content {
+                    display: block;
+                }
+
+                .dropdown {
+
+                    display: flex;
+                    position: relative;
+                    margin-left: 3vw;
+                    cursor: pointer;
+
+                    img {
+    
+                        display: flex;
+                        margin-right: 3vw;
+                        padding: 0 1vw;
+                    }
+
+                        .dropdown-content {
+
+                            
+                            display: none;
+                            position: absolute;
+                            top: 100%;
+                            right: 10px;
+                            background-color: #f9f9f9;
+                            min-width: 160px;
+                            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                            z-index: 1;
+                            border-radius: 6px;
+                            div:hover {background-color: rgba(236, 240, 241, 1);}
+                            div {
+                                transition: all 0.3s ease;
+                            }
+
+
+                            .dropProfile {
+                                display: flex;
+                                justify-content: flex-start;
+                                padding-top: 20px;
+                                padding-bottom: 10px;
+                                align-items: center;
+
+
+                                img {
+                                    object-fit: contain;
+                                    margin: 0;
+                                    padding: 0;
+                                    margin-left: 25px;
+                                }
+
+                                a {
+                                    text-decoration: none;
+                                    margin-left: 20px;
+                                }
+                            }
+
+                            .dropLogout {
+                                display: flex;
+                                justify-content: flex-start;
+                                padding-top: 10px;
+                                padding-bottom: 15px;
+                                align-items: center;
+                            
+
+                                img {
+                                    margin: 0;
+                                    padding: 0;
+                                    object-fit: contain;
+                                    margin-left: 25px;
+                                }
+
+                                span {
+                                    margin-left: 20px;
+                                }
+                            }
+
+                            
+
+                            
+                        }
+                }
+
+                
+            }
+    
+        }
+    
+    }   
+    
+
+}
+

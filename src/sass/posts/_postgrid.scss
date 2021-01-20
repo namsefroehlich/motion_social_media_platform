@@ -1,0 +1,460 @@
+.wrapper {
+
+    width: 80vw;
+    background-color: transparent;
+
+    .card {
+        background-color: white;
+        padding: 30px 25px;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        margin: 5.6% 0 0 0;
+    }
+
+    .card.onmind {
+        flex-direction: row;
+        display: flex;
+
+        #pb {
+
+            width: 10%;
+            margin-right: 1.5vw;
+        }
+
+        input {
+
+            width: 60%;
+            outline: 0;
+            border: 0;
+            opacity: 0.7;
+            margin-right: 7vw;
+        }
+
+        #sendButton {
+
+            display: flex;
+            background: linear-gradient(102deg, #c568ff 0%, #6e91f6);
+            border-radius: 100%;
+            width: 10%;
+            padding: 2.5%;
+            
+        }
+
+
+    }
+
+    .card {
+
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+
+        &:nth-child(even) {
+
+            float: right;
+
+        }
+
+        &:nth-child(odd) {
+
+            float: left;
+
+        }
+
+        &:last-child {
+
+            clear: both;
+            float: none;
+
+        }
+
+    }
+
+    #post-one{
+
+        display: flex;
+        flex-direction: column;
+
+        .profil-name-settings {
+
+            display: flex;
+            width: 100%;
+            margin-bottom: 2.8%;
+            
+
+            .left {
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                
+
+                
+                img {
+
+                    width: 7%;
+                    margin-right: 1vw;
+                }
+
+
+                .name-time {
+                    
+                    display: flex; 
+                    flex-direction: column;
+                    
+
+                    #fullname {
+
+                        font-size: 14px;
+                    }
+                    #time {
+                        font-size: 14px;
+                        opacity: 0.5;
+                    }
+
+                }
+            }
+
+            .right {
+
+                display: flex;
+                justify-content: flex-end;
+                
+            }
+        } 
+
+         .left {
+
+            display: flex;
+        }
+        p {
+            
+            margin-bottom: 2%;
+        }
+
+        /*.feedpics {
+
+            display: grid;
+            grid-template-columns: auto 48.6%;
+            grid-gap: 2.8%;
+            margin-bottom: 5%;
+            
+            
+
+            img {
+                
+                
+                width: 100%;
+                
+
+                
+            }
+            
+
+        }*/
+
+        .postfooter {
+
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin: 1%;
+            height: 30px;
+            align-items: center;
+            
+
+
+            
+            .like-share {
+
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                
+
+                .like {
+
+                    display: flex;
+                    width: 20%;
+                    align-items: center;
+                    margin-right: 13%;
+                    
+
+                    img {
+                        margin-right: 30%;
+                    }
+                }
+
+                .sharepost {
+
+                    display: flex;
+                    width: 20%;
+                    align-items: center;
+
+                    img {
+                        margin-right: 20%;
+                    }
+                }
+
+            }
+
+            .sumLikes {
+
+                display: flex;
+                flex-direction: row;
+                width: 20%;
+                margin-left: 30%;
+            }
+            
+        } 
+    }
+
+    /* .profil-name-settings {
+
+        display: flex;
+        width: 100%;
+        margin-bottom: 2.8%;
+        justify-content: space-between;
+
+        img {
+
+            display: flex;
+            width: auto;
+            margin-right: 1vw;
+        }
+
+
+        img.meta {
+
+            width: 1vw;
+            height: 1vw;
+            margin: 0;
+        }
+
+        .name-time {
+
+            display: flex;
+            flex-direction: column;
+            
+            #fullname {
+
+                font-size: 14px;
+            }
+             #time {
+                font-size: 14px;
+                opacity: 0.5;
+            }
+        }
+    }
+
+    #post-two {
+
+        display: flex;
+        flex-direction: column;
+
+        .profil-name-settings {
+            justify-content: unset;
+        }
+
+        .lorem {
+            display: flex;
+            margin-bottom: 2.8%;
+        }
+
+        .postfooter {
+
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin: 1%;
+            height: 30px;
+            align-items: center;
+            
+
+
+            
+            .like-share {
+
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                
+
+                .like {
+
+                    display: flex;
+                    width: 20%;
+                    align-items: center;
+                    margin-right: 13%;
+                    
+
+                    img {
+                        margin-right: 30%;
+                    }
+                }
+
+                .sharepost {
+
+                    display: flex;
+                    width: 20%;
+                    align-items: center;
+
+                    img {
+                        margin-right: 20%;
+                    }
+                }
+
+            }
+
+            .sumLikes {
+
+                display: flex;
+                flex-direction: row;
+                width: 20%;
+                margin-left: 30%;
+            }
+            
+        }
+    }
+
+    #post-three {
+
+        display: flex;
+        flex-direction: column;
+
+        .pb-name {
+
+            display: flex;
+            width: 100%;
+            margin-bottom: 2.8%;
+            align-items: center;
+
+            img {
+
+                display: flex;
+                width: 7%;
+                margin-right: 1vw;
+            }
+
+            .name-time {
+
+                display: flex;
+                flex-direction: column;
+
+                #fullname {
+
+                    font-size: 14px;
+                }
+                 #time {
+                    font-size: 14px;
+                    opacity: 0.5;
+                }
+
+                
+            }
+
+            #sharedPost {
+
+                display: flex;
+                flex-direction: row;
+                font-size: 14px;
+                opacity: 0.5;
+                margin-left: 1vw;
+                margin-top: 0.2vw;
+                align-self: flex-start;
+                
+            }
+        }
+
+        .text {
+
+            display: flex;
+            margin-bottom: 5.6%;
+        }
+
+        .repost {
+
+            padding-left: 1.5vw;
+            border-left: 1px solid rgba(0, 0, 0, 0.1);
+
+
+            .loremtext {
+
+                display: flex;
+                margin-bottom: 5.6%;
+            }
+
+            .pic {
+
+                img {
+
+                    width: 100%;
+                    
+                }
+            }
+
+            
+        } 
+
+        .postfooter {
+
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin: 1%;
+            height: 30px;
+            align-items: center;
+            
+
+
+            
+            .like-share {
+
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                
+
+                .like {
+
+                    display: flex;
+                    width: 20%;
+                    align-items: center;
+                    margin-right: 13%;
+                    
+
+                    img {
+                        margin-right: 30%;
+                    }
+                }
+
+                .sharepost {
+
+                    display: flex;
+                    width: 20%;
+                    align-items: center;
+
+                    img {
+                        margin-right: 20%;
+                    }
+                }
+
+            }
+
+            .sumLikes {
+
+                display: flex;
+                flex-direction: row;
+                width: 20%;
+                margin-left: 30%;
+                
+            }
+            
+        }
+
+
+    } */
+
+    
+}

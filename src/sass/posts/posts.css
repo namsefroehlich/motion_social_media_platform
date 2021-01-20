@@ -1,0 +1,357 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: auto 48.6%;
+  grid-gap: 2.8%;
+  width: 80vw;
+  background-color: transparent;
+}
+
+.wrapper .card {
+  background-color: white;
+  padding: 30px 25px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: 5.6% 0 0 0;
+}
+
+.wrapper .card.onmind {
+  flex-direction: row;
+  display: flex;
+}
+
+.wrapper .card.onmind #pb {
+  width: 10%;
+  margin-right: 1.5vw;
+}
+
+.wrapper .card.onmind input {
+  width: 60%;
+  outline: 0;
+  border: 0;
+  opacity: 0.7;
+  margin-right: 7vw;
+}
+
+.wrapper .card.onmind #sendButton {
+  display: flex;
+  background: linear-gradient(102deg, #c568ff 0%, #6e91f6);
+  border-radius: 100%;
+  width: 10%;
+  padding: 2.5%;
+}
+
+.wrapper #post-one {
+  display: flex;
+  flex-direction: column;
+  /* .profil-name-settings {
+
+            display: flex;
+            width: 100%;
+            margin-bottom: 2.8%;
+            
+
+            .left {
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                
+                img {
+
+                    width: 7%;
+                    margin-right: 1vw;
+                }
+
+
+                .name-time {
+                    
+                    display: flex; 
+                    flex-direction: column;
+
+                    #fullname {
+
+                        font-size: 14px;
+                    }
+                    #time {
+                        font-size: 14px;
+                        opacity: 0.5;
+                    }
+
+                }
+            }
+
+            .right {
+
+                display: flex;
+                
+            }
+        } */
+}
+
+.wrapper #post-one .left {
+  display: flex;
+}
+
+.wrapper #post-one p {
+  margin-bottom: 2%;
+}
+
+.wrapper #post-one .feedpics {
+  display: grid;
+  grid-template-columns: auto 48.6%;
+  grid-gap: 2.8%;
+  margin-bottom: 5%;
+}
+
+.wrapper #post-one .feedpics img {
+  width: 100%;
+}
+
+.wrapper #post-one .postfooter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 1%;
+  height: 30px;
+  align-items: center;
+}
+
+.wrapper #post-one .postfooter .like-share {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.wrapper #post-one .postfooter .like-share .like {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  margin-right: 13%;
+}
+
+.wrapper #post-one .postfooter .like-share .like img {
+  margin-right: 30%;
+}
+
+.wrapper #post-one .postfooter .like-share .sharepost {
+  display: flex;
+  width: 20%;
+  align-items: center;
+}
+
+.wrapper #post-one .postfooter .like-share .sharepost img {
+  margin-right: 20%;
+}
+
+.wrapper #post-one .postfooter .sumLikes {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  margin-left: 30%;
+}
+
+.wrapper .profil-name-settings {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2.8%;
+  justify-content: space-between;
+}
+
+.wrapper .profil-name-settings img {
+  display: flex;
+  width: auto;
+  margin-right: 1vw;
+}
+
+.wrapper .profil-name-settings img.meta {
+  width: 1vw;
+  height: 1vw;
+  margin: 0;
+}
+
+.wrapper .profil-name-settings .name-time {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper .profil-name-settings .name-time #fullname {
+  font-size: 14px;
+}
+
+.wrapper .profil-name-settings .name-time #time {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.wrapper #post-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper #post-two .profil-name-settings {
+  justify-content: unset;
+}
+
+.wrapper #post-two .lorem {
+  display: flex;
+  margin-bottom: 2.8%;
+}
+
+.wrapper #post-two .postfooter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 1%;
+  height: 30px;
+  align-items: center;
+}
+
+.wrapper #post-two .postfooter .like-share {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.wrapper #post-two .postfooter .like-share .like {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  margin-right: 13%;
+}
+
+.wrapper #post-two .postfooter .like-share .like img {
+  margin-right: 30%;
+}
+
+.wrapper #post-two .postfooter .like-share .sharepost {
+  display: flex;
+  width: 20%;
+  align-items: center;
+}
+
+.wrapper #post-two .postfooter .like-share .sharepost img {
+  margin-right: 20%;
+}
+
+.wrapper #post-two .postfooter .sumLikes {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  margin-left: 30%;
+}
+
+.wrapper #post-three {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper #post-three .pb-name {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2.8%;
+  align-items: center;
+}
+
+.wrapper #post-three .pb-name img {
+  display: flex;
+  width: 7%;
+  margin-right: 1vw;
+}
+
+.wrapper #post-three .pb-name .name-time {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper #post-three .pb-name .name-time #fullname {
+  font-size: 14px;
+}
+
+.wrapper #post-three .pb-name .name-time #time {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.wrapper #post-three .pb-name #sharedPost {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  opacity: 0.5;
+  margin-left: 1vw;
+  margin-top: 0.2vw;
+  align-self: flex-start;
+}
+
+.wrapper #post-three .text {
+  display: flex;
+  margin-bottom: 5.6%;
+}
+
+.wrapper #post-three .repost {
+  padding-left: 1.5vw;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wrapper #post-three .repost .loremtext {
+  display: flex;
+  margin-bottom: 5.6%;
+}
+
+.wrapper #post-three .repost .pic img {
+  width: 100%;
+}
+
+.wrapper #post-three .postfooter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 1%;
+  height: 30px;
+  align-items: center;
+}
+
+.wrapper #post-three .postfooter .like-share {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.wrapper #post-three .postfooter .like-share .like {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  margin-right: 13%;
+}
+
+.wrapper #post-three .postfooter .like-share .like img {
+  margin-right: 30%;
+}
+
+.wrapper #post-three .postfooter .like-share .sharepost {
+  display: flex;
+  width: 20%;
+  align-items: center;
+}
+
+.wrapper #post-three .postfooter .like-share .sharepost img {
+  margin-right: 20%;
+}
+
+.wrapper #post-three .postfooter .sumLikes {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  margin-left: 30%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  color: #242323;
+  font-size: 16px;
+}
+/*# sourceMappingURL=posts.css.map */

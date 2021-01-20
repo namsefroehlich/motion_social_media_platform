@@ -1,0 +1,20 @@
+$primary-color: #ce2222;
+$seconday-color: #ffffff;
+
+$primary-blue: hsl(221, 56%, 46%);
+
+$border-radius: 6px;
+
+
+$font-size: 16px;
+
+$linear-gradiant: linear-gradient(102deg, #c568ff 0%, #6e91f6);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: #242323;
+    font-size: $font-size;
+}
